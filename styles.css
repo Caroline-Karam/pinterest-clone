@@ -1,0 +1,87 @@
+/* hoda styles */
+.navbar-brand {
+  color: red;
+}
+.frS img {
+  height: 400px;
+}
+.frC {
+  background-image: url(/img/153002_top-hd-wallpapers-hd-1080p-images-for-pinterest_1920x1080_h.jpg);
+  background-size: cover;
+  color: white;
+}
+.Card-body {
+  align-items: end;
+}
+.card {
+  border: none;
+  border-radius: 10px;
+}
+.card-img {
+  height: 25rem;
+}
+.logo-img {
+  height: 40px;
+  width: 40px;
+}
+.carousel-inner img {
+  height: 30rem;
+  width: 30rem;
+}
+.main img {
+  border: none;
+  background-color: inherit;
+  border-radius: 1rem;
+}
+@media (max-width: 768px) {
+  .card-link {
+    display: none;
+  }
+}
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* zena styles */
+.image-overlay-container,
+.image-overlay-container2 {
+  position: relative;
+  border-radius: 2rem;
+}
+
+.image-overlay-container img,
+.image-overlay-container2 img {
+  border-radius: inherit;
+}
+
+.image-overlay-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: inherit;
+}
+
+.image-overlay-container2::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: inherit;
+}
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* ------------------------------------ */
+/* noha styles  */
+.div {
+  margin-bottom: 50px;
+}

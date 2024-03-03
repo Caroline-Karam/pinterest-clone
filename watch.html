@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Watch</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="styel.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header -->
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img class="logo-img" src="https://i.pinimg.com/736x/98/a6/de/98a6de54dc27442a3c8375ab303c6e42.jpg" alt="">
+          <a class="navbar-brand" href="#">Pintrest</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+              style="--bs-scroll-height: 100px">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Watch
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Explor</a></li>
+                  <li><a class="dropdown-item" href="#">Watch</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex w-75 " role="search">
+              <input
+                class="form-control me-3"
+                type="search"
+                placeholder="Search"
+                aria-label="Search" />
+            </form>
+            <button type="button" class="btn btn-secondary  rounded-5 m-2  ">Login</button>
+            <button type="button" class="btn btn-danger rounded-5">Sign up</button>
+            <div class="dropdown">
+              <button class="btn btn-light rounded-5 gap-3  dropdown-toggle" type="button" id="dropdownMenuButton2" data-bs-toggle="dropdown" aria-expanded="false">
+                
+              </button>
+              <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item active" href="#">About Pintrest</a></li>
+                <li><a class="dropdown-item" href="#">See terms</a></li>
+        
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- <--- cards---->
+      <div
+  id="carouselExampleCaptions"
+  class="carousel slide"
+  data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="0"
+      class="active"
+      aria-current="true"
+      aria-label="Slide 1"></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="1"
+      aria-label="Slide 2"></button>
+    <button
+      type="button"
+      data-bs-target="#carouselExampleCaptions"
+      data-bs-slide-to="2"
+      aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner ">
+    <div class="carousel-item active">
+      <img src="https://images.ctfassets.net/az3stxsro5h5/3lKQmYP1gmuoXVsdJryGDV/cc3e645baea8357f14d4a8c3b9ea309d/May2-How_to_Use_Pinterest_Video_Pins_to_Promote_Your_Brand-Feature-FL" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p>
+        <button type="button" class="btn btn-danger ">See more</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://images.ctfassets.net/b4k16c7lw5ut/7ERsVF7DdPJq2lU6BFBapV/302a80829a6accf049813e7527e5968e/Pinterest-business-hero.jpg?w=1000&h=563&fl=progressive&q=50&fm=jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+        <button type="button" class="btn btn-danger ">See more</button>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://admin.ecommercebrasil.com.br/wp-content/uploads/2022/07/pinterest.jpg" class="d-block w-100" alt="..." />
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+        <button type="button" class="btn btn-danger ">See more</button>
+      </div>
+    </div>
+    
+  </div>
+  <button
+    class="carousel-control-prev"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button
+    class="carousel-control-next"
+    type="button"
+    data-bs-target="#carouselExampleCaptions"
+    data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+      <div class="container main mt-5 text-center">
+        <h1>Featured Pic</h1>
+        <div class="container-fluid  d-sm-flex   flex-lg-row gap-3">
+          <div class="card" style="width: 20rem; height: 32rem">
+            <img
+              src="https://i.pinimg.com/1200x/77/80/db/7780db38ec65d86c9c203bc1d622838e.jpg"
+              class="card-img-top h-100 rounded-4"
+              alt="..." />
+            <div class="card-body d-flex flex-column">
+              <a href="#" class="card-link text-black ">make a flower chandelier</a>
+              <a href="#" class="card-link text-black">DIY And Crafts</a>
+            </div>
+          </div>
+          <div class="card" style="width: 20rem; height: 32rem">
+            <img
+              src="https://i.pinimg.com/1200x/a6/0d/95/a60d95f2dd58ef0a51eca7819a0af6e6.jpg"
+              class="card-img-top h-100 rounded-4 rounded-4"
+              alt="..." />
+            <div class="card-body d-flex flex-column">
+              <a href="#" class="card-link text-black">Is Exercise a Must for Keto</a>
+              <a href="#" class="card-link text-black">Sports</a>
+            </div>
+          </div>
+          <div class="card" style="width: 20rem; height: 32rem">
+            <img
+              src="https://i.pinimg.com/1200x/84/ed/07/84ed071d7aa48aabc72611db66f72e3a.jpg"
+              class="card-img-top h-100 rounded-4"
+              alt="..." />
+            <div class="card-body d-flex flex-column">
+              <a href="#" class="card-link text-black">Crochet pattern for home</a>
+              <a href="#" class="card-link text-black">DIY And Crafts</a>
+            </div>
+          </div>
+          <div class="card" style="width: 20rem; height: 32rem">
+            <img
+              src="https://i.pinimg.com/1200x/56/5a/30/565a301c8b3f30c847dedaf1098c5035.jpg"
+              class="card-img-top h-100 rounded-4"
+              alt="..." />
+            <div class="card-body d-flex flex-column">
+              <a href="#" class="card-link text-black">Instant Pot Popcorn</a>
+              <a href="#" class="card-link text-black">Food And Drink</a>
+            </div>
+          </div>
+          <div class="card" style="width: 20rem; height: 32rem">
+            <img
+              src="https://i.pinimg.com/1200x/04/74/43/0474438047630fba8da660ac3dec639d.jpg"
+              class="card-img-top h-100 rounded-4"
+              alt="..." />
+            <div class="card-body d-flex flex-column">
+              <a href="#" class="card-link text-black">Paper Plate Snail</a>
+              <a href="#" class="card-link text-black">DIY And Crafts</a>
+            </div>
+          </div>
+        </div>
+        <h1>Browse by intersets </h1>
+        <div class="container d-flex flex-column">
+          <div class="d-flex justify-content-between p-3">
+            <p class="fw-bold ">Food And Drink</p>
+            <a href="#">See all</a>
+          </div>
+
+          <div class="container d-sm-flex   flex-lg-row  sec ">
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/62/9b/ed/629bed8c51c0a4fa9fce4c841a0b153c.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/b4/a2/04/b4a20490d9f415446a9f9e269f576721.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+          
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/51/7a/6c/517a6c2ddc1c051a7c72651d6d90f043.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/27/24/05/272405543da952d5e7a08217fa5241b6.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+             <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/31/65/b7/3165b7d722a22c0c4f350e15e4f5c99f.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+          </div>
+            <div class="d-flex justify-content-between p-3">
+            <p class="fw-bold ">Diy And Crafts</p>
+            <a href="#">See all</a>
+          </div>
+
+          <div class="container d-sm-flex   flex-lg-row sec">
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/1a/a3/b2/1aa3b210f26304f1a9fec70ff524c96a.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/4d/5d/81/4d5d814765dcdd4b54f52072f87a9fe6.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/36/2d/f4/362df45d8a5c02b70ef1c7be9879d1b9.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/9d/93/a2/9d93a2f579803e831d39cbf0cf03dcff.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/f2/16/6e/f2166e33090b66ab4202a3b4f0d657f7.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+           
+          </div>
+        </div>
+          <div class="d-flex justify-content-between p-3">
+            <p class="fw-bold ">Hair</p>
+            <a href="#">See all</a>
+          </div>
+
+          <div class="container d-sm-flex   flex-lg-row sec">
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/0e/60/78/0e6078ccdb94f69163d3a7c927092039.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/a4/c3/98/a4c398950c19c44801a1d62c83981903.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/96/f0/1a/96f01a5fa5164214d2f6a2a691679f2a.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/40/69/c9/4069c923fd1d30b6b6053b87801c3c7f.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/0b/92/25/0b92258e1f458f5e48d23b7e02e0f19c.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+          </div>
+            <div class="d-flex justify-content-between p-3">
+            <p class="fw-bold ">Art</p>
+            <a href="#">See all</a>
+          </div>
+
+          <div class="container d-sm-flex   flex-lg-row sec">
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/9b/03/92/9b03921b0535cc14f0a73f02a501a91c.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/d7/12/35/d71235cc0c95d769e09c8f20015886aa.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/bmAjJ1NzKhSOvcdhwQyon8kGFrGSCI5n-UW1cr8V8UQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMubmlnaHRjYWZl/LnN0dWRpby8vYXNz/ZXRzL3RkcmF3LWdp/cmwuanBnP3RyPXct/MTYwMCxjLWF0X21h/eA" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/62/58/20/625820812e780a079edae5b7bf783850.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://i.pinimg.com/200x/8b/47/65/8b4765c79b415d851bbd0a8e266ddc4e.jpg" class="card-img" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+          <div class="d-flex justify-content-between p-3">
+            <p class="fw-bold ">Fitness And Exercise</p>
+            <a href="#">See all</a>
+          </div>
+
+          <div class="container d-sm-flex   flex-lg-row sec">
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/Inwui8oMA9WmDIi-GMj2n4MhgTfwBP2TypvRv_SOQTg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy82/LzZhL0NyaXN0aWFu/b19Sb25hbGRvX0ly/YW5fdnNfUG9ydHVn/YWwuanBn" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/tv9G0-s-6P_MdUPHnH0pwwObdJtbmPvXBa9YMEcm8vA/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuZXZlcnlkYXlo/ZWFsdGguY29tL2lt/YWdlcy9kaWdlc3Rp/dmUtaGVhbHRoL3Vs/Y2VyYXRpdmUtY29s/aXRpcy9jcy1ob3ct/YWVyb2JpYy1leGVy/Y2lzZS1jYW4taGVs/cC11bGNlcmF0aXZl/LWNvbGl0aXMtNzIy/eDQwNi5qcGc" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/Qkp_aRx3nA5BXyPMgVynnKsJQvdVjygi6ktfB7kEfr8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvNDgy/MTAzNjA5L3Bob3Rv/L21hcmNoLW1hZG5l/c3MuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPVV0R0pMT0tj/Wm9Ib0hUSG0xbHZ0/aDRqa2tPU3dEWXBl/bTBLZ19wWmp3SlE9" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/LrEBjkwTgBm3juvp9_U9zlhL_z1goveV9JPlqab4wXU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9jZG4u/YWFycC5uZXQvY29u/dGVudC9kYW0vYWFy/cC9oZWFsdGgvaGVh/bHRoeS1saXZpbmcv/MjAyMy8wMS8xMTQw/LXdvbWFuLWRvaW5n/LXNxdWF0cy1hdC1o/b21lLmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/lYgBmMWMEjrHPoXpnvRhqOf5zxDsZVs9aXYGEcT7op4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pay5p/bWFnZWtpdC5pby8w/MmZtZW80ZXh2dy9i/bG9ncy8yMDIzL1Nl/cHQtRGVjL0hvdyUy/MHRvJTIwRmluZCUy/MGElMjBKb2IlMjBh/cyUyMGFuJTIwQUNF/JTIwQ2VydGlmaWVk/JTIwUGVyc29uYWwl/MjBUcmFpbmVyLmpw/Zz90cj13LTcwMA" class="card-img" alt="..." />
+              </div>
+            </div>
+          </div>
+            <div class="d-flex justify-content-between p-3">
+            <p class="fw-bold ">Home Decor</p>
+            <a href="#">See all</a>
+          </div>
+
+          <div class="container d-sm-flex   flex-lg-row sec">
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/fAsZzrPYJgfkkDRFOBiRDKrNyNSJOuyZwI7MLisoZcM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9iZXN0/LWtpdGhjaGVuLWRl/Y29yLWlkZWFzLTEt/MTY3MjQ2Mjg2OS5q/cGc_Y3JvcD0wLjc0/N3h3OjEuMDB4aDsw/LjExNHh3LDAmcmVz/aXplPTM2MDoq" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/ZqCIpczcKdyv7tl8omPoP8hjKERkqNaqes0K8AhogSY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzg2L2Nj/LzAyLzg2Y2MwMmVj/MGEyZmEzNGU5NzZm/NDQyN2U3ZWJlNzRl/LmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/dgGVNcNqxYVhgunUVePGVy5jYyBt-DwDm54WovrqsZY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMx/MjQzOTg0NS9waG90/by9zdHlsaXNoLWxp/dmluZy1yb29tLWlu/dGVyaW9yLXdpdGgt/YmVhdXRpZnVsLWhv/dXNlLXBsYW50cy5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/c1V0NmpTYjFfTVpG/ZnlteUZtdXByR1lt/dHo1WFJvR3RDMmxV/c25Tcl95ND0" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/wqab0uckg2ZCTLMMxGhHNJyXCkVXJB2GtSVAq5mNLx8/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzFjL2Ji/LzQ3LzFjYmI0NzBk/ZmE1OTNhYmViNDdj/ODc4ZDM2ODg3MWM2/LmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/droKb-U0Tzwn9WG4cWSsWPDV613Xkpq4IDUK6mUbrVk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy9lbGxl/LWRlY29yLWEtbGlz/dC1sZWFkLTE1NTg0/NTczNTEuanBnP2Ny/b3A9MC41MDJ4dzox/LjAweGg7MC4yNjB4/dywwJnJlc2l6ZT0z/NjA6Kg" class="card-img" alt="..." />
+              </div>
+            </div>
+          </div>
+            <div class="d-flex justify-content-between p-3">
+            <p class="fw-bold ">Womens Fashion</p>
+            <a href="#">See all</a>
+          </div>
+
+          <div class="container d-sm-flex   flex-lg-row sec">
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/6RIVDH5BBeknj--o8_J5diJ_KF-EWmoV4ocMpOBEcag/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzZkLzkw/LzIyLzZkOTAyMmRl/OTdkMzViMWExYjdm/ZGNmYmRkM2EyMmRm/LmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/okUlr6hdGZROHoTn7F9sA1ho6vdHVEtB3I6OUCjckg4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/ZmFzaGlvbi1tb2Rl/bC1pbi1waW5rLmpw/Zz93aWR0aD0xMDAw/JmZvcm1hdD1wanBn/JmV4aWY9MCZpcHRj/PTA" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/mi9I3RoKrADOLgC5Lerik-nt9d1iOAR6fSHUOpoGIWY/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9m/YXNoaW9uLW1vZGVs/LWlzLXdhbGtpbmct/c3RyZWV0LWhlZWxz/LXNoZS13ZWFycy1z/dW5nbGFzc2VzLXJp/cHBlZC1ibGFjay1q/ZWFuc18xOTc1MzEt/MTEwNC5qcGc_c2l6/ZT02MjYmZXh0PWpw/Zw" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/DACT41Jl3VTEc49cEjITLI42lBGsDyLQaZlICTx2oxg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9n/cmFjZWZ1bC1mYXNo/aW9uLW1vZGVsLXRy/ZW5keS1oYXQtYXV0/dW1uLXdoaXRlLWph/Y2tldC1wb3Npbmdf/MjczNDQzLTM4NDcu/anBnP3NpemU9NjI2/JmV4dD1qcGc" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/sZ98OXW8grOAgJdyPt8zSFhu5Evu5-5PxPyCewP9jic/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9idXJz/dC5zaG9waWZ5Y2Ru/LmNvbS9waG90b3Mv/bW9kZWwtaW4tZ29s/ZC1mYXNoaW9uLmpw/Zz93aWR0aD0xMDAw/JmZvcm1hdD1wanBn/JmV4aWY9MCZpcHRj/PTA" class="card-img" alt="..." />
+              </div>
+            </div>
+          </div>
+            <div class="d-flex justify-content-between p-3">
+            <p class="fw-bold ">Christmas</p>
+            <a href="#">See all</a>
+          </div>
+
+          <div class="container d-sm-flex   flex-lg-row sec">
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/4-5C0w2sHKIlrtmUcUWu8vIR8U9GhT4T3kQL_HlfBf0/rs:fit:500:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzMxLzIzLzIw/LzM2MF9GXzIzMTIz/MjAwOV9wV2lZTjBw/WjdPcFdHYU5xQzV6/MzBLcGdoVVBES255/ei5qcGc" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/yLrleYjKODElg8KuGWrUhAlQpqhoQUtWAJ1_6gvdeM4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE1/NzcyMTg1NDU2NTMt/ZGM5YWE5NGIzNTY4/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4elpX/RnlZMmg4TVRsOGZH/MWxjbko1SlRJd1ky/aHlhWE4wYldGemZH/VnVmREI4ZkRCOGZI/d3c.jpeg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/pqMrqecRNPB1oq2dyMorYr4IjIszqWZ0fiAQeLNMAHo/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuYm9yZWRwYW5k/YS5jb20vYmxvZy93/cC1jb250ZW50L3Vw/bG9hZHMvMjAxNi8x/Mi9jaHJpc3RtYXMt/YmFieS1waG90b3No/b290LWZhaWxzLXBp/bnRlcmVzdC1leHBl/Y3RhdGlvbnMtdnMt/cmVhbGl0eS0xLTU4/NGZjNDAxZDExM2Zf/XzYwNS5qcGc" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/djCeYG6dQpS2gSpwsef5P_gvs6q5d9RbfIrE972uwAU/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE2/MDkwMjQ4NDk1NDMt/ZmY1OWRmMzYxZDA4/P3E9ODAmdz0xMDAw/JmF1dG89Zm9ybWF0/JmZpdD1jcm9wJml4/bGliPXJiLTQuMC4z/Jml4aWQ9TTN3eE1q/QTNmREI4TUh4bGVI/QnNiM0psTFdabFpX/UjhNVGQ4Zkh4bGJu/d3dmSHg4Zkh3PQ.jpeg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/ExhVrbfNgIgOOHFn93A-a8XxNqthM33bbJ08MdcyPFg/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9mYXJt/NS5zdGF0aWNmbGlj/a3IuY29tLzQ1NTMv/MjUxMTYzMjY5Mzhf/NzJkYjU2MjBlN19o/LmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+          </div>
+            <div class="d-flex justify-content-between p-3">
+            <p class="fw-bold ">Architecture Concept</p>
+            <a href="#">See all</a>
+          </div>
+
+          <div class="container d-sm-flex   flex-lg-row sec">
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/LqMsBbZormgQ9jyLpnerAmR_qmZJ5qtvm49ExZmFk5U/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzQ2Lzlj/L2JhLzQ2OWNiYWEz/OTAyYzZjZWE0ZmYw/N2YyMGMxYjk3M2I4/LmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/gUa5wkqVRVKu4N8fjHNr8OKVw4hMVEMYiI0zTDFWkXI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzE0LzUw/L2VhLzE0NTBlYWEy/YTgwYjQzZDJiMTQz/MzljNzAyMzY2ZmIw/LmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/im2aGFCGCt0F7Fmjiy8t4uWfA1LRUrWDkaElw15sM2s/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxLzBh/L2EzLzYxMGFhMzVj/MjgxODZjMGFlYzc4/M2RkOGY2NGRlMTNj/LmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/pegC55oCy0Ll8IpWoaByf5Ktd8WC5LcV7f7khdPBHx4/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzQzLzhj/LzQ2LzQzOGM0NmRi/MmVhMGExNzE2MzE2/NjNiOWM2MDNhZjVm/LmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/sGNU8s9N2luS0r8ZVT3YIvWB2mMF5FjnnHTMKgPV_mk/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/YXJjaGlzb3VwLmNv/bS93cC1jb250ZW50/L3VwbG9hZHMvMjAy/My8wMi9BcmNoaXRl/Y3R1cmUtUG9ydGZv/bGlvLUtpdC1OZXct/NzIyeDEwMjQuanBn" class="card-img" alt="..." />
+              </div>
+            </div>
+          </div>
+            <div class="d-flex justify-content-between p-3">
+            <p class="fw-bold ">Food And Drink</p>
+            <a href="#">See all</a>
+          </div>
+
+          <div class="container d-sm-flex   flex-lg-row sec mb-4 ">
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/l2EImW8uR-Nj_UerflLJvlPZr1hWDy9_HPZZQSK3N9w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9naWZk/Yi5jb20vaW1hZ2Vz/L2hpZ2gvZ2lybC1l/bXBsb3llci1icmFu/ZGluZy1hbmQtY29k/aW5nLW1wcGl0NGx1/czU1ODMzYzMuZ2lm.jpeg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/C1wcl8mJHK5riATSB99dhFKnXJRR2E7cCCTS0OitKUw/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS50ZW5vci5jb20v/TkNSSGhxa1hySllB/QUFBai9wcm9ncmFt/bWVycy1nby1pbnRl/cm5ldC5naWY.jpeg" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/IIUG4WzHpkPQfAV1uR0sZv115_-aYF-T3nK9jbrK05w/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzRiL2Ey/Lzg1LzRiYTI4NTli/ZjE0NTg4ZDg4Mjdi/OGJmZTE5MzkxY2Fm/LmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/kHphB022sLCNynwsfiq1EuaFxaiS0ztUoUgAPMwY5gM/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2IyLzcz/LzQxL2IyNzM0MWEw/YTU4YTcwMGQzMmY4/NmUyYzE5Zjg4NjQ3/LmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+            <div class="container   style="width: 20rem; height: 28rem"">
+              <div class="card text-bg-dark">
+                <img src="https://imgs.search.brave.com/AKqmmMQi1gWGF0q8Td4D5SRtOqZeNWYkaVrDAhQluFQ/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzYxL2Ew/L2IxLzYxYTBiMTBk/MDNmMWMwODVmYjIx/MWIyNDRmOWQ4MzQy/LmpwZw" class="card-img" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+        
+        </div>
+        
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
